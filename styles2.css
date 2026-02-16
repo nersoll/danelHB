@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('heart.jpg'); /* Путь к вашему файлу фона */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон контейнера */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content {
+    border: 2px solid #fff; /* Белая рамка */
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
